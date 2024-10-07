@@ -207,7 +207,7 @@ body {
   border-radius: 10px;
 }
 
-.Tiktok {
+.TikTok {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -222,7 +222,7 @@ body {
   touch-action: manipulation;
 }
 
-.Tiktok:before {
+.TikTok:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -245,12 +245,12 @@ body {
   -webkit-filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing-Tiktok 20s linear infinite;
+  animation: glowing-TikTok 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
-@keyframes glowing-Tiktok {
+@keyframes glowing-TikTok {
   0% {
     background-position: 0 0;
   }
@@ -262,7 +262,7 @@ body {
   }
 }
 
-.Tiktok:after {
+.TikTok:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -343,7 +343,7 @@ body {
 
 .developer:hover,
 .instagram:hover,
-.Tiktok:hover,
+.TikTok:hover,
 .discord:hover {
   color: #00ffd5;
   transform: scale(1.05);
@@ -352,7 +352,7 @@ body {
 
 .developer:hover:before,
 .instagram:hover:before,
-.Tiktok:hover:before,
+.TikTok:hover:before,
 .discord:hover:before {
   filter: blur(10px);
   transition: filter 0.3s ease;
@@ -360,7 +360,7 @@ body {
 
 .developer:hover:after,
 .instagram:hover:after,
-.Tiktok:hover:after,
+.TikTok:hover:after,
 .discord:hover:after {
   background: rgba(34, 34, 34, 0.8);
 }
