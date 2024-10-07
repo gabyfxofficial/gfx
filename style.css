@@ -207,7 +207,7 @@ body {
   border-radius: 10px;
 }
 
-.NetServices {
+.Tiktok {
   padding: 0.6em 2em;
   border: none;
   outline: none;
@@ -222,7 +222,7 @@ body {
   touch-action: manipulation;
 }
 
-.NetServices:before {
+.Tiktok:before {
   content: "";
   background: linear-gradient(
     45deg,
@@ -245,12 +245,12 @@ body {
   -webkit-filter: blur(5px);
   width: calc(100% + 4px);
   height: calc(100% + 4px);
-  animation: glowing-NetServices 20s linear infinite;
+  animation: glowing-Tiktok 20s linear infinite;
   transition: opacity 0.3s ease-in-out;
   border-radius: 10px;
 }
 
-@keyframes glowing-NetServices {
+@keyframes glowing-Tiktok {
   0% {
     background-position: 0 0;
   }
@@ -262,7 +262,7 @@ body {
   }
 }
 
-.NetServices:after {
+.Tiktok:after {
   z-index: -1;
   content: "";
   position: absolute;
@@ -343,7 +343,7 @@ body {
 
 .developer:hover,
 .instagram:hover,
-.NetServices:hover,
+.Tiktok:hover,
 .discord:hover {
   color: #00ffd5;
   transform: scale(1.05);
@@ -352,7 +352,7 @@ body {
 
 .developer:hover:before,
 .instagram:hover:before,
-.NetServices:hover:before,
+.Tiktok:hover:before,
 .discord:hover:before {
   filter: blur(10px);
   transition: filter 0.3s ease;
@@ -360,7 +360,7 @@ body {
 
 .developer:hover:after,
 .instagram:hover:after,
-.NetServices:hover:after,
+.Tiktok:hover:after,
 .discord:hover:after {
   background: rgba(34, 34, 34, 0.8);
 }
