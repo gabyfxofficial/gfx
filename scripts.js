@@ -1,1 +1,1 @@
-// Optional: You can add interactivity here if needed
+// javascript srcipts for the website
